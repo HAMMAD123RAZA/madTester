@@ -1,0 +1,24 @@
+services:
+  backend:
+    build: ./Api
+    container_name: Api
+    ports:
+      - "8080:8080"
+    env_file:
+      - ./Api/.env          
+    networks:
+      - app-network
+
+  frontend:
+    build: ./client
+    container_name: client
+    ports:
+      - "3000:80"
+    networks:
+      - app-network
+    depends_on:
+      - Api
+
+networks:
+  app-network:
+    driver: bridge
