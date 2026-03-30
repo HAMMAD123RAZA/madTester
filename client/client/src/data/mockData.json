@@ -1,0 +1,342 @@
+{
+  "campaigns": [
+    {
+      "id": "c001",
+      "name": "Lumiere Summer Launch",
+      "client": "Lumiere Skincare",
+      "status": "active",
+      "budget": 50000,
+      "spend": 32450,
+      "impressions": 2400000,
+      "clicks": 48000,
+      "conversions": 1200,
+      "ctr": 2.0,
+      "roas": 3.2,
+      "channel": "Google Ads",
+      "startDate": "2026-03-01",
+      "endDate": "2026-03-31"
+    },
+    {
+      "id": "c002",
+      "name": "TechFlow Brand Awareness",
+      "client": "TechFlow Inc",
+      "status": "active",
+      "budget": 75000,
+      "spend": 58900,
+      "impressions": 5600000,
+      "clicks": 112000,
+      "conversions": 2800,
+      "ctr": 2.0,
+      "roas": 2.8,
+      "channel": "Meta Ads",
+      "startDate": "2026-02-15",
+      "endDate": "2026-04-15"
+    },
+    {
+      "id": "c003",
+      "name": "EcoStyle Conversion Push",
+      "client": "EcoStyle Fashion",
+      "status": "active",
+      "budget": 35000,
+      "spend": 28750,
+      "impressions": 1800000,
+      "clicks": 36000,
+      "conversions": 1440,
+      "ctr": 2.0,
+      "roas": 4.1,
+      "channel": "Instagram",
+      "startDate": "2026-03-10",
+      "endDate": "2026-04-10"
+    },
+    {
+      "id": "c004",
+      "name": "FitPulse App Launch",
+      "client": "FitPulse",
+      "status": "paused",
+      "budget": 45000,
+      "spend": 22500,
+      "impressions": 1200000,
+      "clicks": 24000,
+      "conversions": 480,
+      "ctr": 2.0,
+      "roas": 2.1,
+      "channel": "Google Ads",
+      "startDate": "2026-03-05",
+      "endDate": "2026-03-25"
+    },
+    {
+      "id": "c005",
+      "name": "NutraLife Holiday Campaign",
+      "client": "NutraLife Supplements",
+      "status": "completed",
+      "budget": 60000,
+      "spend": 60000,
+      "impressions": 3200000,
+      "clicks": 64000,
+      "conversions": 1920,
+      "ctr": 2.0,
+      "roas": 3.5,
+      "channel": "Meta Ads",
+      "startDate": "2026-02-01",
+      "endDate": "2026-02-28"
+    },
+    {
+      "id": "c006",
+      "name": "UrbanGear Retargeting",
+      "client": "UrbanGear",
+      "status": "active",
+      "budget": 28000,
+      "spend": 15400,
+      "impressions": 900000,
+      "clicks": 18000,
+      "conversions": 720,
+      "ctr": 2.0,
+      "roas": 3.8,
+      "channel": "Google Ads",
+      "startDate": "2026-03-15",
+      "endDate": "2026-04-15"
+    }
+  ],
+  "clients": [
+    {
+      "id": "cl001",
+      "name": "Lumiere Skincare",
+      "email": "hello@themadesigners.com",
+      "industry": "Beauty & Skincare",
+      "website": "https://lumiere.com"
+    },
+    {
+      "id": "cl002",
+      "name": "TechFlow Inc",
+      "email": "contact@techflow.io",
+      "industry": "Technology",
+      "website": "https://techflow.io"
+    },
+    {
+      "id": "cl003",
+      "name": "EcoStyle Fashion",
+      "email": "info@ecostyle.com",
+      "industry": "Fashion & Apparel",
+      "website": "https://ecostyle.com"
+    },
+    {
+      "id": "cl004",
+      "name": "FitPulse",
+      "email": "support@fitpulse.app",
+      "industry": "Health & Fitness",
+      "website": "https://fitpulse.app"
+    },
+    {
+      "id": "cl005",
+      "name": "NutraLife Supplements",
+      "email": "sales@nutralife.com",
+      "industry": "Health & Wellness",
+      "website": "https://nutralife.com"
+    },
+    {
+      "id": "cl006",
+      "name": "UrbanGear",
+      "email": "hello@urbangear.co",
+      "industry": "Retail & E-commerce",
+      "website": "https://urbangear.co"
+    }
+  ],
+  "performanceData": [
+    {
+      "date": "2026-03-01",
+      "impressions": 2400000,
+      "clicks": 48000,
+      "conversions": 1200,
+      "spend": 32450
+    },
+    {
+      "date": "2026-03-02",
+      "impressions": 2350000,
+      "clicks": 47000,
+      "conversions": 1175,
+      "spend": 31900
+    },
+    {
+      "date": "2026-03-03",
+      "impressions": 2500000,
+      "clicks": 50000,
+      "conversions": 1250,
+      "spend": 33200
+    },
+    {
+      "date": "2026-03-04",
+      "impressions": 2300000,
+      "clicks": 46000,
+      "conversions": 1150,
+      "spend": 31500
+    },
+    {
+      "date": "2026-03-05",
+      "impressions": 2600000,
+      "clicks": 52000,
+      "conversions": 1300,
+      "spend": 34100
+    },
+    {
+      "date": "2026-03-06",
+      "impressions": 2450000,
+      "clicks": 49000,
+      "conversions": 1225,
+      "spend": 32800
+    },
+    {
+      "date": "2026-03-07",
+      "impressions": 2550000,
+      "clicks": 51000,
+      "conversions": 1275,
+      "spend": 33600
+    },
+    {
+      "date": "2026-03-08",
+      "impressions": 2400000,
+      "clicks": 48000,
+      "conversions": 1200,
+      "spend": 32450
+    },
+    {
+      "date": "2026-03-09",
+      "impressions": 2350000,
+      "clicks": 47000,
+      "conversions": 1175,
+      "spend": 31900
+    },
+    {
+      "date": "2026-03-10",
+      "impressions": 2500000,
+      "clicks": 50000,
+      "conversions": 1250,
+      "spend": 33200
+    },
+    {
+      "date": "2026-03-11",
+      "impressions": 2300000,
+      "clicks": 46000,
+      "conversions": 1150,
+      "spend": 31500
+    },
+    {
+      "date": "2026-03-12",
+      "impressions": 2600000,
+      "clicks": 52000,
+      "conversions": 1300,
+      "spend": 34100
+    },
+    {
+      "date": "2026-03-13",
+      "impressions": 2450000,
+      "clicks": 49000,
+      "conversions": 1225,
+      "spend": 32800
+    },
+    {
+      "date": "2026-03-14",
+      "impressions": 2550000,
+      "clicks": 51000,
+      "conversions": 1275,
+      "spend": 33600
+    },
+    {
+      "date": "2026-03-15",
+      "impressions": 2400000,
+      "clicks": 48000,
+      "conversions": 1200,
+      "spend": 32450
+    },
+    {
+      "date": "2026-03-16",
+      "impressions": 2350000,
+      "clicks": 47000,
+      "conversions": 1175,
+      "spend": 31900
+    },
+    {
+      "date": "2026-03-17",
+      "impressions": 2500000,
+      "clicks": 50000,
+      "conversions": 1250,
+      "spend": 33200
+    },
+    {
+      "date": "2026-03-18",
+      "impressions": 2300000,
+      "clicks": 46000,
+      "conversions": 1150,
+      "spend": 31500
+    },
+    {
+      "date": "2026-03-19",
+      "impressions": 2600000,
+      "clicks": 52000,
+      "conversions": 1300,
+      "spend": 34100
+    },
+    {
+      "date": "2026-03-20",
+      "impressions": 2450000,
+      "clicks": 49000,
+      "conversions": 1225,
+      "spend": 32800
+    },
+    {
+      "date": "2026-03-21",
+      "impressions": 2550000,
+      "clicks": 51000,
+      "conversions": 1275,
+      "spend": 33600
+    },
+    {
+      "date": "2026-03-22",
+      "impressions": 2400000,
+      "clicks": 48000,
+      "conversions": 1200,
+      "spend": 32450
+    },
+    {
+      "date": "2026-03-23",
+      "impressions": 2350000,
+      "clicks": 47000,
+      "conversions": 1175,
+      "spend": 31900
+    },
+    {
+      "date": "2026-03-24",
+      "impressions": 2500000,
+      "clicks": 50000,
+      "conversions": 1250,
+      "spend": 33200
+    },
+    {
+      "date": "2026-03-25",
+      "impressions": 2300000,
+      "clicks": 46000,
+      "conversions": 1150,
+      "spend": 31500
+    },
+    {
+      "date": "2026-03-26",
+      "impressions": 2600000,
+      "clicks": 52000,
+      "conversions": 1300,
+      "spend": 34100
+    },
+    {
+      "date": "2026-03-27",
+      "impressions": 2450000,
+      "clicks": 49000,
+      "conversions": 1225,
+      "spend": 32800
+    },
+    {
+      "date": "2026-03-28",
+      "impressions": 2550000,
+      "clicks": 51000,
+      "conversions": 1275,
+      "spend": 33600
+    }
+  ]
+}
