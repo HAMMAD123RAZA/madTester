@@ -5,15 +5,6 @@ import { BriefStep3 } from '@/components/BriefStep3';
 import { BriefStep4 } from '@/components/BriefStep4';
 import { useBriefForm } from '@/contexts/BriefFormContext';
 
-/**
- * Creative Brief Builder Page
- * 
- * Multi-step form for generating AI-powered creative briefs
- * Step 1: Client Details
- * Step 2: Campaign Objective
- * Step 3: Creative Preferences
- * Step 4: Review & Submit with AI Generation
- */
 
 export default function CreativeBriefBuilder() {
   const { currentStep } = useBriefForm();
