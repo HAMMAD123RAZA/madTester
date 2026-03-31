@@ -33,7 +33,6 @@ export const login = async (req, res) => {
   }
 };
 
-// Added for convenience to create an initial user
 export const register = async (req, res) => {
   const { name, email, password, role } = req.body;
   if (!name || !email || !password) {
