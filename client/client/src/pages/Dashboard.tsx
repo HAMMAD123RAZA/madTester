@@ -13,7 +13,6 @@ import { calculateCTR, calculateConversionRate, formatCurrency, formatNumber } f
 import mockData from '@/data/mockData.json';
 
 /**
- * Dashboard Page Component
  * 
  * Design Philosophy: Modern Data Minimalism
  * - Information hierarchy through contrast and strategic color accents
