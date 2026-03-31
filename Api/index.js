@@ -15,9 +15,8 @@ app.use(cors());
 app.use(express.json());
 app.use(apiRateLimiter);
 
-// Public Auth Routes
 app.post('/auth/login', validateAuth, login);
-app.post('/auth/register', register); // Optional for creating users
+app.post('/auth/register', register); 
 
 // Protected Campaign Routes
 app.get("/campaigns", authenticateToken, GetAll);
@@ -32,7 +31,6 @@ app.get("/", (req, res) => {
 
 const PORT = process.env.PORT || 3000;
 
-// Export app for testing
 export default app;
 
 if (process.env.NODE_ENV !== 'test') {
