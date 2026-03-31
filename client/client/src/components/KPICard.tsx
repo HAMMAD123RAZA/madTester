@@ -15,7 +15,6 @@ export function KPICard({ label, value, change, icon, trend = 'neutral' }: KPICa
 
   return (
     <div className="group relative overflow-hidden rounded-lg border border-border bg-card p-6 transition-all duration-300 hover:shadow-lg hover:border-accent/30">
-      {/* Gradient accent top border */}
       <div className="absolute inset-x-0 top-0 h-1 bg-gradient-to-r from-accent via-accent/50 to-transparent opacity-0 transition-opacity duration-300 group-hover:opacity-100" />
 
       <div className="flex items-start justify-between">
