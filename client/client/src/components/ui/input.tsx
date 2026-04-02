@@ -11,7 +11,6 @@ function Input({
   onCompositionEnd,
   ...props
 }: React.ComponentProps<"input">) {
-  // (will be no-op if not 
   // inside Dialog)
   const dialogComposition = useDialogComposition();
 
