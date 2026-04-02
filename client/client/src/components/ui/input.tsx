@@ -11,7 +11,8 @@ function Input({
   onCompositionEnd,
   ...props
 }: React.ComponentProps<"input">) {
-  // Get dialog composition context if available (will be no-op if not inside Dialog)
+  // (will be no-op if not 
+  // inside Dialog)
   const dialogComposition = useDialogComposition();
 
   // Add composition event handlers to support input method editor (IME) for CJK languages.
